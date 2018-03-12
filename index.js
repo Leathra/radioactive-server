@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send({ hi: 'there' });
+  res.send({ hi: 'Mom!' });
 });
 
 //look at underlining enviroment and see if they have specified a port to use when running in production
