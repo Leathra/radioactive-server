@@ -7,6 +7,7 @@ import * as actions from '../actions';
 import Header from './Header';
 import Landing from './Landing';
 import Designs from './Designs';
+import Footer from './Footer';
 import DesignsPrimary from './DesignsPrimary';
 import DesignsYoungMen from './DesignsYoungMen';
 import DesignsYoungWomen from './DesignsYoungWomen';
@@ -41,6 +42,7 @@ class App extends Component {
             <Route path="/designsreliefsociety" component={DesignsReliefSociety} />
             <Route path="/tutorials" component={Tutorials} />
             <Route path="/shoppingCart" component={ShoppingCart} />
+            <Footer />
           </div>
         </BrowserRouter>
       </div>

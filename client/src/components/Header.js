@@ -10,8 +10,8 @@ class Header extends Component {
         return;
       case false:
         return [
-            <li key="1"><a href="/auth/google">Login With Google</a></li>,
-            <li key="2"><a href="/auth/google">Sign Up</a></li>,
+            <li key="1"><a href="/auth/google" className="grey-text text-darken-1">Login</a></li>,
+            <li key="2"><a href="/auth/google" className="grey-text text-darken-1">Sign Up</a></li>,
             <li key="5">
               <Link className="grey-text text-darken-1"
                 to={'./Designs'}

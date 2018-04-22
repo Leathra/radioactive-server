@@ -7,16 +7,11 @@ const Designs = () => {
       <div className="row">
         <div className="col s12">
           <img alt="spools of thread on a wall" className="reponsive-img col s12"
-          src={window.location.origin + '/images/sewing-threads-on-wall_4460x4460.png'} />
-          <div className="col s3 offset-s1"
-            style={{ position: 'absolute',
-                    zIndex: '1'}}>
-            <img alt="logo" src={window.location.origin + '/assets/logo.svg'}/>
-          </div>
+          src={window.location.origin + '/assets/sewing-threads-on-wall_4460x4460.png'}/>
         </div>
       </div>
       <div className="container" style={{ textAlign: 'center' }}>
-            <h3 className="teal-text base">Designs</h3>
+            <h4 className="teal-text base">Designs</h4>
             <div className="divider amber accent-2"
               style={{ height: '2px',
                       marginBottom: '30px'}}></div>
