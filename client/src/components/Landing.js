@@ -77,12 +77,14 @@ const Landing = () => {
         <div className="row s10 offset-1 center-align"
               style={{ margin: '40px 20px'}}>
           <div className="col m4 s12">
-            <div className="card-image">
-              <img alt="CTR Towel Design"
-              className="responsive-img"
-              src={window.location.origin + '/images/ctrTowel2.png'}
-              style={{ maxWidth: '100%',
-                      maxHeight: '100%'}}/>
+            <div className="section">
+              <div className="card-image">
+                <img alt="CTR Towel Design"
+                className="responsive-img"
+                src={window.location.origin + '/images/ctrTowel2.png'}
+                style={{ maxWidth: '100%',
+                        maxHeight: '100%'}}/>
+              </div>
             </div>
             <div className="card-content">
               <h5 className="orange-text darken-2">CTR Towel</h5>
@@ -95,12 +97,14 @@ const Landing = () => {
             </div>
           </div>
           <div className="col m4 s12">
-            <div className="card-image">
-              <img alt="Relief Society Logo"
-              className="responsive-img"
-              src={window.location.origin + '/images/reliefsociety.jpg'}
-              style={{ maxWidth: '100%',
-                      maxHeight: '100%'}}/>
+            <div className="section">
+              <div className="card-image">
+                <img alt="Relief Society Logo"
+                className="responsive-img"
+                src={window.location.origin + '/images/reliefsociety.jpg'}
+                style={{ maxWidth: '100%',
+                        maxHeight: '100%'}}/>
+              </div>
             </div>
             <div className="card-content">
               <h5 className="orange-text darken-2">Relief Society Sampler</h5>
@@ -113,12 +117,14 @@ const Landing = () => {
             </div>
           </div>
           <div className="col m4 s12">
-            <div className="card-image">
-              <img alt="Blue and Gold Table decorations"
-              className="responsive-img"
-              src={window.location.origin + '/images/cubScouts.png'}
-              style={{ maxWidth: '100%',
-                      maxHeight: '100%'}}/>
+            <div className="section">
+              <div className="card-image">
+                <img alt="Blue and Gold Table decorations"
+                className="responsive-img"
+                src={window.location.origin + '/images/cubScouts.png'}
+                style={{ maxWidth: '100%',
+                        maxHeight: '100%'}}/>
+              </div>
             </div>
             <div className="card-content">
               <h5 className="orange-text darken-2">Blue & Gold</h5>
