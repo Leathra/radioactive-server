@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
-class ProductPage extends Component {
+class ProductPageCTRShield extends Component {
   static contextTypes = {
     router: () => true,
   }
@@ -35,9 +35,9 @@ class ProductPage extends Component {
             <div className="col s4 hide-on-small-only">
               <div className="card">
                 <div className="card-image">
-                  <img alt="Image not available"
+                  <img alt=" CTR Shield"
                   className="reponsive-img"
-                  src={window.location.origin + '/images/sorry-image-not-available-300x300.png'}
+                  src={window.location.origin + '/assets/ctrSheild.png'}
                   style={{ maxWidth: '100%',
                           maxHeight: '100%'}}/>
                 </div>
@@ -95,4 +95,4 @@ class ProductPage extends Component {
   }
 }
 
-export default ProductPage;
+export default ProductPageCTRShield;

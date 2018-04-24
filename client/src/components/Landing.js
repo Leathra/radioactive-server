@@ -33,7 +33,7 @@ const Landing = () => {
                 for shirts, pillows, quilts, towels and more!</p></div>
                 <div>
                   <Link className="waves-effect waves-light btn orange darken-2 hoverable"
-                    to={'./DesignsPrimary'}
+                    to={'./DesignsPrimarySpecialEvents'}
                     style={{ marginTop: "20px"}}
                     >
                      Shop the Collection
@@ -55,7 +55,7 @@ const Landing = () => {
               <div><p className="grey-text text-darken-1">Inspiration and project ideas</p></div>
               <div>
                   <Link className="waves-effect waves-light btn orange darken-2 hoverable"
-                    to={'./DesignsYoungWomen'}
+                    to={'./DesignsYWSpecialEvents'}
                     style={{ margin: "20px"}}
                     >
                      See More
@@ -130,7 +130,7 @@ const Landing = () => {
               <h5 className="orange-text darken-2">Blue & Gold</h5>
             </div>
             <div className="card-action">
-              <Link to={'./DesignsPrimary'}
+              <Link to={'./DesignsCubScouts'}
               className="orange-text darken-2">
                 Featured Collection
               </Link>

@@ -57,7 +57,7 @@ class Header extends Component {
           return [
             <li key="1"><Payments /></li>,
             <li key="3" style={{ margin: '0 10px' }}>
-              Credits: {this.props.auth.credits}
+              Total: {this.props.auth.credits}
             </li>]
             ;
       }
@@ -72,12 +72,12 @@ class Header extends Component {
             to={this.props.auth ? '/' : '/'}
             className="brand-logo center grey-text text-darken-1"
             >
-            LDS Embroirdery
+            <h3 className="flow-text">LDS Embroirdery</h3>
           </Link>
           <ul className="left">
             {this.renderContent()}
           </ul>
-          <ul className="right grey-text text-darken-1">
+          <ul className="right grey-text text-darken-1 hide-on-small-and-down">
             {this.renderContentRight()}
           </ul>
         </div>

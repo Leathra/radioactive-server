@@ -26,7 +26,7 @@ const DesignsActivityDays = () => {
         <div className="row">
           <div className="col s12 m4">
             <div className="card hoverable">
-              <Link to={'./ProductPage.js'}>
+              <Link to={'./ProductPage'}>
               <div className="card-image"
               style={{ border: "2px solid #ffd180"}}>
                 <img alt="image not available" className="reponsive-img"
@@ -48,7 +48,7 @@ const DesignsActivityDays = () => {
           </div>
           <div className="col s12 m4">
             <div className="card hoverable">
-              <Link to={'./ProductPage.js'}>
+              <Link to={'./ProductPage'}>
               <div className="card-image"
               style={{ border: "2px solid #ffd180"}}>
                 <img alt="image not available" className="reponsive-img"
@@ -70,7 +70,7 @@ const DesignsActivityDays = () => {
           </div>
           <div className="col s12 m4">
             <div className="card hoverable">
-              <Link to={'./ProductPage.js'}>
+              <Link to={'./ProductPage'}>
               <div className="card-image"
               style={{ border: "2px solid #ffd180"}}>
                 <img alt="image not available" className="reponsive-img"
@@ -94,7 +94,7 @@ const DesignsActivityDays = () => {
         <div className="row">
         <div className="col s12 m4">
           <div className="card hoverable">
-            <Link to={'./ProductPage.js'}>
+            <Link to={'./ProductPage'}>
             <div className="card-image"
             style={{ border: "2px solid #ffd180"}}>
               <img alt="image not available" className="reponsive-img"
@@ -116,7 +116,7 @@ const DesignsActivityDays = () => {
         </div>
         <div className="col s12 m4">
           <div className="card hoverable">
-            <Link to={'./ProductPage.js'}>
+            <Link to={'./ProductPage'}>
             <div className="card-image"
             style={{ border: "2px solid #ffd180"}}>
               <img alt="image not available" className="reponsive-img"
@@ -138,7 +138,7 @@ const DesignsActivityDays = () => {
         </div>
         <div className="col s12 m4">
           <div className="card hoverable">
-            <Link to={'./ProductPage.js'}>
+            <Link to={'./ProductPage'}>
             <div className="card-image"
             style={{ border: "2px solid #ffd180"}}>
               <img alt="image not available" className="reponsive-img"
@@ -162,7 +162,7 @@ const DesignsActivityDays = () => {
         <div className="row">
         <div className="col s12 m4">
           <div className="card hoverable">
-            <Link to={'./ProductPage.js'}>
+            <Link to={'./ProductPage'}>
             <div className="card-image"
             style={{ border: "2px solid #ffd180"}}>
               <img alt="image not available" className="reponsive-img"
@@ -184,7 +184,7 @@ const DesignsActivityDays = () => {
         </div>
         <div className="col s12 m4">
           <div className="card hoverable">
-            <Link to={'./ProductPage.js'}>
+            <Link to={'./ProductPage'}>
             <div className="card-image"
             style={{ border: "2px solid #ffd180"}}>
               <img alt="image not available" className="reponsive-img"
@@ -206,7 +206,7 @@ const DesignsActivityDays = () => {
         </div>
         <div className="col s12 m4">
           <div className="card hoverable">
-            <Link to={'./ProductPage.js'}>
+            <Link to={'./ProductPage'}>
             <div className="card-image"
             style={{ border: "2px solid #ffd180"}}>
               <img alt="image not available" className="reponsive-img"

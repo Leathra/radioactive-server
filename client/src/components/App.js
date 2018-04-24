@@ -30,6 +30,10 @@ import DesignsReliefSocietySpecialEvents from './DesignsReliefSocietySpecialEven
 import DesignsReliefSocietySundays from './DesignsReliefSocietySundays';
 import Tutorials from './Tutorials';
 import ProductPage from './ProductPage';
+import ProductPageValueFLower from './ProductPageValueFLower';
+import ProductPageCTRShield from './ProductPageCTRShield';
+import ProductPageEightAplique from './ProductPageEightAplique';
+import ProductPageEightLettering from './ProductPageEightLettering';
 import ShoppingCart from './ShoppingCart';
 const Dashboard = () => <h2>Dashboard</h2>;
 const SurveyNew = () => <h2>SurveyNew</h2>;
@@ -70,11 +74,15 @@ class App extends Component {
             <Route path="/designsywsundays" component={DesignsYWSundays} />
             <Route path="/designsreliefsociety" component={DesignsReliefSociety} />
             <Route path="/designsenrichmentactivities" component={DesignsEnrichmentActivities} />
-            <Route path="/designsministering" components={DesignsMinistering} />
-            <Route path="/designsreliefsocietyspecialevents" components={DesignsReliefSocietySpecialEvents} />
+            <Route path="/designsministering" component={DesignsMinistering} />
+            <Route path="/designsreliefsocietyspecialevents" component={DesignsReliefSocietySpecialEvents} />
             <Route path="/designsreliefsocietysundays" component={DesignsReliefSocietySundays} />
             <Route path="/tutorials" component={Tutorials} />
-            <Route path="/productpage" component={ProductPage} />
+            <Route path="/ProductPage" component={ProductPage} />
+            <Route path="/ProductPageValueFLower" component={ProductPageValueFLower} />
+            <Route path="/ProductPageCTRShield" component={ProductPageCTRShield} />
+            <Route path="/ProductPageEightAplique" component={ProductPageEightAplique} />
+            <Route path="/ProductPageEightLettering" component={ProductPageEightLettering} />
             <Route path="/shoppingCart" component={ShoppingCart} />
             <Footer />
           </div>
