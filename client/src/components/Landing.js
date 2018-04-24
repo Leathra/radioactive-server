@@ -10,12 +10,12 @@ const Landing = () => {
           src={window.location.origin + '/assets/sewing-threads-on-wall_4460x4460.png'}/>
         </div>
       </div>
-      <div clasName="container" style={{ textAlign: 'center' }}>
+      <div className="container" style={{ textAlign: 'center' }}>
         <div className="row"
               style={{ margin: '40px 20px'}}>
           <div className="col m6 hide-on-small-only">
-            <div className="card">
-              <div className="card-image">
+            <div className="card z-depth-0">
+              <div className="card-image z-depth-0">
                 <img alt="Great to be eight t-shirt"
                 className="reponsive-img"
                 src={window.location.origin + '/images/8shirt.png'}
@@ -43,37 +43,44 @@ const Landing = () => {
             </div>
           </div>
         </div>
-        <div className="row s10 offset-1"
-              style={{ margin: '40px 35px'}}>
-          <div className="teal lighten-5">
-          <div className="card transparent">
-            <div className="card-content s3 m2 l1"
+
+        <div className="row teal lighten-5 z-depth-1"
+              style={{ margin: '40px 20px'}}>
+
+          <div className="col s12 m6">
+            <div className="card transparent section z-depth-0">
+              <div className="card-content transparent section"
               style={{ border: "2px solid #ffd740",
-                      margin: "30px",
-                      maxWidth: "300px"}}>
-              <div><h3 className="card-title orange-text darken-2">New Beginings</h3></div>
-              <div><p className="grey-text text-darken-1">Inspiration and project ideas</p></div>
-              <div>
+                      maxWidth: "300px",
+                      margin: "auto"}}>
+                <div><h3 className="card-title orange-text darken-2">New Beginings</h3></div>
+                <div><p className="grey-text text-darken-1">Inspiration and Project Ideas</p></div>
+                <div>
                   <Link className="waves-effect waves-light btn orange darken-2 hoverable"
                     to={'./DesignsYWSpecialEvents'}
-                    style={{ margin: "20px"}}
+                    style={{ marginTop: "20px"}}
                     >
                      See More
                     </Link>
                 </div>
               </div>
             </div>
-            <div className=" col m6 s12">
-              <div className="card-image transparent">
-                <img alt="New Beginings Design"
-                className="responsive-img"
+          </div>
+
+          <div className="col m6 hide-on-small-only">
+            <div className="card z-depth-0">
+              <div className="card-image z-depth-0">
+                <img alt="Great to be eight t-shirt"
+                className="reponsive-img"
                 src={window.location.origin + '/images/newBeginings.png'}
                 style={{ maxWidth: '100%',
                         maxHeight: '100%'}}/>
               </div>
             </div>
           </div>
+
         </div>
+
         <div className="row s10 offset-1 center-align"
               style={{ margin: '40px 20px'}}>
           <div className="col m4 s12">

@@ -20,7 +20,8 @@ class ProductPageCTRShield extends Component {
           <div className="nav-wrapper">
             <div className="col s12">
               <a onClick={this.context.router.history.goBack}
-                className="orange-text darken-2">
+                className="orange-text darken-2"
+                style={{ cursor: "pointer"}}>
                 <i className="material-icons tiny orange-text darken-2">navigate_before</i>
                 Continue Shopping
               </a>
