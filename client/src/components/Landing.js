@@ -108,7 +108,7 @@ const Landing = () => {
               <div className="card-image">
                 <img alt="Relief Society Logo"
                 className="responsive-img"
-                src={window.location.origin + '/images/reliefsociety.jpg'}
+                src={window.location.origin + '/images/reliefSociety.jpg'}
                 style={{ maxWidth: '100%',
                         maxHeight: '100%'}}/>
               </div>
